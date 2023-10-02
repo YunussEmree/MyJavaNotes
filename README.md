@@ -60,13 +60,13 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 
 ## Matematiksel Operatörler
 
-+ => Toplama operatörü         => 5 + 5 çıktısı 10
-- => Çıkarma operatörü         => 5 - 3 çıktısı 2
-* => Çarpma operatörü          => 5 * 3 çıktısı 15
-"/" => Bölme operatörü         => 15 / 3 çıktısı 5
-^ => Üs alma operatörü         => 5 ^ 3 çıktısı 125
-% => Mod operatörü             => 12 % 5 çıktısı 2
- // Bu operatör bölmeden kalan sayıyı çıktı olarak verir.
+ + => Toplama operatörü         => 5 + 5 çıktısı 10
+ - => Çıkarma operatörü         => 5 - 3 çıktısı 2
+ * => Çarpma operatörü          => 5 * 3 çıktısı 15
+ / => Bölme operatörü         => 15 / 3 çıktısı 5
+ ^ => Üs alma operatörü         => 5 ^ 3 çıktısı 125
+ % => Mod operatörü             => 12 % 5 çıktısı 2
+  // Bu operatör bölmeden kalan sayıyı çıktı olarak verir.
 
 
 ## Aritmetik Atama Operatörleri
