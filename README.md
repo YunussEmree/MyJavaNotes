@@ -70,6 +70,7 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 
 
 ## Aritmetik Atama Operatörleri
+
 += => Topla ve ata operatörü    => x += 5 kodunun açılımı x = x + 5 şeklindedir ve x değeri 5 artacaktır.
 -= => Çıkar ve ata operatörü    => x -= 5 kodunun açılımı x = x - 5 şeklindedir ve x değeri 5 azalacaktır.
 *= => Çarp ve ata operatörü     => x *= 5 kodunun açılımı x = x * 5 şeklindedir ve x değeri 5 ile çarpılacaktır.
