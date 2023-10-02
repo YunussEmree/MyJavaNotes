@@ -58,7 +58,7 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 
 # Operatörler
 
-##Matematiksel Operatörler
+## Matematiksel Operatörler
 
 + => Toplama operatörü         => 5 + 5 çıktısı 10
 - => Çıkarma operatörü         => 5 - 3 çıktısı 2
@@ -69,7 +69,7 @@ Sadece True(1) ve False(0) verilerini tutabilir.
  // Bu operatör bölmeden kalan sayıyı çıktı olarak verir.
 
 
-##Aritmetik Atama Operatörleri
+## Aritmetik Atama Operatörleri
 += => Topla ve ata operatörü    => x += 5 kodunun açılımı x = x + 5 şeklindedir ve x değeri 5 artacaktır.
 -= => Çıkar ve ata operatörü    => x -= 5 kodunun açılımı x = x - 5 şeklindedir ve x değeri 5 azalacaktır.
 *= => Çarp ve ata operatörü     => x *= 5 kodunun açılımı x = x * 5 şeklindedir ve x değeri 5 ile çarpılacaktır.
@@ -78,7 +78,7 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 -- => 1 çıkar operatörü         =>  x--   kodunun açılımı x = x - 1 şeklindedir ve x değeri 1 azalacaktır.
 
 
-##Karşılaştırma Operatörleri
+## Karşılaştırma Operatörleri
 
 == => Eşit mi operatörü          => 5 == 6 çıktısı false
 != => Eşit değil mi operatörü    => 5 != 6 çıktısı true
@@ -88,23 +88,23 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 =< => Küçük eşit operatörü       => 5 =< 5 çıktısı true
 
 
-##Mantıksal Operatörler
+## Mantıksal Operatörler
 
 && => Ve(and) operatörü          => 5 == 5 && 10 != 7 çıktısı true
 || => Veya(or) operatörü         => 5 == 5 || 10 == 6 çıktısı true
 ! => Değil operatörü             => !(5 == 10) çıktısı true
 
 
-#Koşullar 
+# Koşullar 
 
-##if koşulu 
+## if koşulu 
 => Eğer içindeki koşul sağlanırsa devamındaki methodları çalıştırır
  if(5 == 10){  x = 10; }
  => Burada 5 ile 10 birbirine eşit olmadığı için {} sembolleri arasındaki kod çalışmamıştır.
  if(10 == 10){  x = 10; }
  => Burada 10 ile 10 birbirine eşit olduğu için {} sembolleri arasındaki kod çalıştırılıp x değeri 10 olarak değiştirilecektir.
 
-###else if koşulu 
+### else if koşulu 
 => Eğer önceki if kodu çalıştırılmadıysa ve else if koşulu sağlanıyorsa içindeki kod çalıştırılır.
  if(10 == 10) { x = 10; }
  else if(10 == 10) {x = 15}
@@ -113,20 +113,20 @@ Sadece True(1) ve False(0) verilerini tutabilir.
  else if(10 == 10) {x = 15}
  => Burada if koşulunun içerisindeki koşul sağlanmadığı için ve else if koşulu sağlandığı için else if içerisindeki kod çalıştırılacak ve x değeri 15 olarak değiştirilecektir.
 
-###else koşulu 
+### else koşulu 
 => Eğer öncesindeki hiçbir koşul sağlanmadıysa herhangi bir koşulu kontrol etmeksizin içerisindeki kodu çalıştıracaktır.
 if(5 == 10) {x = 10}
 else {x = 15}
 => Burada if koşulu sağlanmadığı için ve başka koşul kalmadığı için else kodu devreye girip x değeri 15 olarak atanacaktır.
 
-###Koşula bağlı operatör
+### Koşula bağlı operatör
 ?: (Ternary Operator)/(Koşula Bağlı Operatör) => bu operatör mantığı if else den gelmektedir. x ? y : z şeklinde kullanılan bu operatör de x in istenilen koşul, koşul sağlanırsa dönecek veri y, koşul sağlanmazsa dönecek veri z dir.
 
 x > 0 ? x : -x
 => Bu kodda bir x değeri isteniyor ve bu x değerinin koşulu "x > 0" dur, eğer x değişkeni 0 dan büyükse x in kendisi çıktı olacaktır fakat x değişkeni 0 dan küçükse - ile çarpılıp yani -x değeri çıktımız olacaktır.
 
 
-##Switch Case koşulu
+## Switch Case koşulu
 => Uzun uzun if else ler kullanmak yerine bunu tercih etmeniz hem kod okunabilirliği hem de performansı olumlu yönde etkileyecektir.
 int i = 3 // i ye 3 değerini verdik ve veri tipini int yani tam sayı olarak belirledik
 switch(i){
