@@ -52,7 +52,7 @@ Karakter dizisi şeklinde çalışır.
 "Hello world!", "Üniversite 1. sınıf öğrencisiyim." gibi veri tiplerini tutabilir.
 
 ### Boolean
-Bellekte 1bit yer kaplar
+Bellekte 1bit yer kaplar.
 Sadece True(1) ve False(0) verilerini tutabilir.
 
 
