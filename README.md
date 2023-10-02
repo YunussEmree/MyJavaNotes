@@ -13,14 +13,21 @@ Bellekte 4byte yer kaplar.
 -2147483648 den 2147483647 ye kadarki olan tam sayıları tutabilen veri tipidir.
 
 ### Long
+Bellekte 64byte yer kaplar.
+-9,223,372,036,854,775,808 den 9,223,372,036,854,775,807 ye kadarki olan tam sayıları tutabilen veri tipidir.
 
 
 ## Ondalıklı Sayılar
 
 ### Float
+Bellekte 4byte yer kaplar.
+7 haneye kadar duyarlıdır.
+-3.4x10^38 den 3.4x10^38 e kadarki olan ondalıklı sayıları tutabilen veri tipidir.
 
 ### Double
-
+Bellekte 8byte yer kaplar.
+15 haneye kadar duyarlıdır.
+-1.7x10^308 den 1.7x10^308 e kadarki olan ondalıklı sayıları tutabilen veri tipidir.
 
 ## Karakterler
 
