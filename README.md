@@ -1,3 +1,12 @@
+# Ufak Notlar
+this -> bu class demek
+
+
+# Bazı Kısayollar
+Ctrl + Shift + alt + l => kodun satırlarını hizalar.
+İntellij içinden herhangi bir class koduna sağ tıkla -> refactor -> Encapsulate fiels -> ayarları yap ve refactor e tıkla -> Encapsulation(getter/setter) yapmanın kısa yolu
+
+
 # Yorum Satırı
 //       => Bu sembolden sonrasını yorum satırı olarak ayarlar ve kodunuzda bu kısım çalıştırılmaz. Düzenli ve anlaşılabilir kodlar için gereklidir.
 
