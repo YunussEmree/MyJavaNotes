@@ -61,15 +61,15 @@ Karakter dizisi şeklinde çalışır.
 "Hello world!", "Üniversite 1. sınıf öğrencisiyim." gibi veri tiplerini tutabilir.
 
 ### Boolean
-Bellekte 1bit yer kaplar.
-Sadece True(1) ve False(0) verilerini tutabilir.
+Bellekte 1bit yer kaplar. 
+Sadece True(1) ve False(0) verilerini tutabilir. 
 
 
 # Operatörler
 
 ## Matematiksel Operatörler
 
-"+" => Toplama operatörü         => 5 + 5 çıktısı 10 
+"+" => Toplama operatörü         => 5 + 5 çıktısı 10 <br>
 "-" => Çıkarma operatörü         => 5 - 3 çıktısı 2 
 "*" => Çarpma operatörü          => 5 * 3 çıktısı 15 
 "/" => Bölme operatörü           => 15 / 3 çıktısı 5 
