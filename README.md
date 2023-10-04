@@ -90,43 +90,43 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 
 ## Karşılaştırma Operatörleri
 
-== => Eşit mi operatörü          => 5 == 6 çıktısı false
-!= => Eşit değil mi operatörü    => 5 != 6 çıktısı true
-<  => Küçüktür operatörü         => 5 < 10 çıktısı true
->  => Büyüktür operatörü         => 5 > 10 çıktısı false
-=> => Büyük eşit operatörü       => 5 => 5 çıktısı true
+== => Eşit mi operatörü          => 5 == 6 çıktısı false <br>
+!= => Eşit değil mi operatörü    => 5 != 6 çıktısı true <br>
+<  => Küçüktür operatörü         => 5 < 10 çıktısı true <br>
+>  => Büyüktür operatörü         => 5 > 10 çıktısı false <br>
+=> => Büyük eşit operatörü       => 5 => 5 çıktısı true <br>
 =< => Küçük eşit operatörü       => 5 =< 5 çıktısı true
 
 
 ## Mantıksal Operatörler
 
-&& => Ve(and) operatörü          => 5 == 5 && 10 != 7 çıktısı true
-|| => Veya(or) operatörü         => 5 == 5 || 10 == 6 çıktısı true
+&& => Ve(and) operatörü          => 5 == 5 && 10 != 7 çıktısı true <br>
+|| => Veya(or) operatörü         => 5 == 5 || 10 == 6 çıktısı true <br>
 ! => Değil operatörü             => !(5 == 10) çıktısı true
 
 
 # Koşullar 
 
 ## if koşulu 
-=> Eğer içindeki koşul sağlanırsa devamındaki methodları çalıştırır
- if(5 == 10){  x = 10; }
- => Burada 5 ile 10 birbirine eşit olmadığı için {} sembolleri arasındaki kod çalışmamıştır.
- if(10 == 10){  x = 10; }
+=> Eğer içindeki koşul sağlanırsa devamındaki methodları çalıştırır <br>
+ if(5 == 10){  x = 10; } <br>
+ => Burada 5 ile 10 birbirine eşit olmadığı için {} sembolleri arasındaki kod çalışmamıştır. <br>
+ if(10 == 10){  x = 10; } <br>
  => Burada 10 ile 10 birbirine eşit olduğu için {} sembolleri arasındaki kod çalıştırılıp x değeri 10 olarak değiştirilecektir.
 
 ### else if koşulu 
-=> Eğer önceki if kodu çalıştırılmadıysa ve else if koşulu sağlanıyorsa içindeki kod çalıştırılır.
- if(10 == 10) { x = 10; }
- else if(10 == 10) {x = 15}
- => Burada if koşulunun içerisindeki koşul sağlandığı için else if koşulu sağlansa bile else if kodu çalışmayacaktır.
- if(5 == 10) { x = 10; }
- else if(10 == 10) {x = 15}
+=> Eğer önceki if kodu çalıştırılmadıysa ve else if koşulu sağlanıyorsa içindeki kod çalıştırılır. <br>
+ if(10 == 10) { x = 10; } <br>
+ else if(10 == 10) {x = 15} <br>
+ => Burada if koşulunun içerisindeki koşul sağlandığı için else if koşulu sağlansa bile else if kodu çalışmayacaktır. <br>
+ if(5 == 10) { x = 10; } <br>
+ else if(10 == 10) {x = 15} <br>
  => Burada if koşulunun içerisindeki koşul sağlanmadığı için ve else if koşulu sağlandığı için else if içerisindeki kod çalıştırılacak ve x değeri 15 olarak değiştirilecektir.
 
 ### else koşulu 
-=> Eğer öncesindeki hiçbir koşul sağlanmadıysa herhangi bir koşulu kontrol etmeksizin içerisindeki kodu çalıştıracaktır.
-if(5 == 10) {x = 10}
-else {x = 15}
+=> Eğer öncesindeki hiçbir koşul sağlanmadıysa herhangi bir koşulu kontrol etmeksizin içerisindeki kodu çalıştıracaktır. <br>
+if(5 == 10) {x = 10} <br>
+else {x = 15} <br>
 => Burada if koşulu sağlanmadığı için ve başka koşul kalmadığı için else kodu devreye girip x değeri 15 olarak atanacaktır.
 
 ### Koşula bağlı operatör
@@ -137,18 +137,18 @@ x > 0 ? x : -x
 
 
 ## Switch Case koşulu
-=> Uzun uzun if else ler kullanmak yerine bunu tercih etmeniz hem kod okunabilirliği hem de performansı olumlu yönde etkileyecektir.
-int i = 3 // i ye 3 değerini verdik ve veri tipini int yani tam sayı olarak belirledik
-switch(i){
-        case 1: // eğer değer 1 ise yapılacakları belirliyoruz.
-                System.out.println("i değeri 1 dir."); // bu method ile tırnaklar arasındaki veriyi konsola yazdıracağız yani eğer i değerimiz 1 olsaydı konsolda "i değeri 1 dir." yazısı çıkacaktı.
-                break; // bu ifade koşuldan çıkmamızı sağlayacaktır. Eğer bu ifadeyi kullanmazsanız tüm case yapılarının çıktısını verecektir ve kodumuz istediğmiz şekilde çalışmayacaktır.
-        case 2:
-                System.out.println("i değeri 2 dir.");
-                break;
-        case 3: // x değerimiz 3 olduğu için bu kısımdaki kod çalışacaktır.
-                System.out.print.ln("i değeri 3 tür."); // kodumuzu çalıştırdığımızda konsolumuzda "i değeri 3 tür." yazısını göreceğiz.
-                break; 
+=> Uzun uzun if else ler kullanmak yerine bunu tercih etmeniz hem kod okunabilirliği hem de performansı olumlu yönde etkileyecektir. <br>
+int i = 3 // i ye 3 değerini verdik ve veri tipini int yani tam sayı olarak belirledik. <br>
+switch(i){ <br>
+        case 1: // eğer değer 1 ise yapılacakları belirliyoruz. <br>
+                System.out.println("i değeri 1 dir."); // bu method ile tırnaklar arasındaki veriyi konsola yazdıracağız yani eğer i değerimiz 1 olsaydı konsolda "i değeri 1 dir." yazısı çıkacaktı. <br>
+                break; // bu ifade koşuldan çıkmamızı sağlayacaktır. Eğer bu ifadeyi kullanmazsanız tüm case yapılarının çıktısını verecektir ve kodumuz istediğmiz şekilde çalışmayacaktır. <br>
+        case 2: <br>
+                System.out.println("i değeri 2 dir."); <br>
+                break; <br>
+        case 3: // x değerimiz 3 olduğu için bu kısımdaki kod çalışacaktır. <br>
+                System.out.print.ln("i değeri 3 tür."); // kodumuzu çalıştırdığımızda konsolumuzda "i değeri 3 tür." yazısını göreceğiz. <br>
+                break;  <br>
 }
 
 
