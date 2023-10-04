@@ -69,23 +69,23 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 
 ## Matematiksel Operatörler
 
-"+" => Toplama operatörü         => 5 + 5 çıktısı 10
-"-" => Çıkarma operatörü         => 5 - 3 çıktısı 2
-"*" => Çarpma operatörü          => 5 * 3 çıktısı 15
-"/" => Bölme operatörü         => 15 / 3 çıktısı 5
-"^" => Üs alma operatörü         => 5 ^ 3 çıktısı 125
-"%" => Mod operatörü             => 12 % 5 çıktısı 2
-  // Bu operatör bölmeden kalan sayıyı çıktı olarak verir.
+"+" => Toplama operatörü         => 5 + 5 çıktısı 10 
+"-" => Çıkarma operatörü         => 5 - 3 çıktısı 2 
+"*" => Çarpma operatörü          => 5 * 3 çıktısı 15 
+"/" => Bölme operatörü           => 15 / 3 çıktısı 5 
+"^" => Üs alma operatörü         => 5 ^ 3 çıktısı 125 
+"%" => Mod operatörü             => 12 % 5 çıktısı 2 
+  // Bu operatör bölmeden kalan sayıyı çıktı olarak verir. 
 
 
 ## Aritmetik Atama Operatörleri
 
-+= => Topla ve ata operatörü    => x += 5 kodunun açılımı x = x + 5 şeklindedir ve x değeri 5 artacaktır.
--= => Çıkar ve ata operatörü    => x -= 5 kodunun açılımı x = x - 5 şeklindedir ve x değeri 5 azalacaktır.
-*= => Çarp ve ata operatörü     => x *= 5 kodunun açılımı x = x * 5 şeklindedir ve x değeri 5 ile çarpılacaktır.
-/= => Böl ve ata operatörü      => x /= 5 kodunun açılımı x = x / 5 şeklindedir ve x değeri 5 e bölünecektir.
-++ => 1 Ekle operatörü          =>  x++   kodunun açılımı x = x + 1 şeklindedir ve x değeri 1 artacaktır.
--- => 1 çıkar operatörü         =>  x--   kodunun açılımı x = x - 1 şeklindedir ve x değeri 1 azalacaktır.
++= => Topla ve ata operatörü    => x += 5 kodunun açılımı x = x + 5 şeklindedir ve x değeri 5 artacaktır. 
+-= => Çıkar ve ata operatörü    => x -= 5 kodunun açılımı x = x - 5 şeklindedir ve x değeri 5 azalacaktır. 
+*= => Çarp ve ata operatörü     => x *= 5 kodunun açılımı x = x * 5 şeklindedir ve x değeri 5 ile çarpılacaktır. 
+/= => Böl ve ata operatörü      => x /= 5 kodunun açılımı x = x / 5 şeklindedir ve x değeri 5 e bölünecektir. 
+++ => 1 Ekle operatörü          =>  x++   kodunun açılımı x = x + 1 şeklindedir ve x değeri 1 artacaktır. 
+-- => 1 çıkar operatörü         =>  x--   kodunun açılımı x = x - 1 şeklindedir ve x değeri 1 azalacaktır. 
 
 
 ## Karşılaştırma Operatörleri
