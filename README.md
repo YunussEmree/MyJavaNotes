@@ -80,29 +80,29 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 
 ## Aritmetik Atama Operatörleri
 
-+= => Topla ve ata operatörü    => x += 5 kodunun açılımı x = x + 5 şeklindedir ve x değeri 5 artacaktır. <br>
--= => Çıkar ve ata operatörü    => x -= 5 kodunun açılımı x = x - 5 şeklindedir ve x değeri 5 azalacaktır. <br>
-*= => Çarp ve ata operatörü     => x *= 5 kodunun açılımı x = x * 5 şeklindedir ve x değeri 5 ile çarpılacaktır. <br>
-/= => Böl ve ata operatörü      => x /= 5 kodunun açılımı x = x / 5 şeklindedir ve x değeri 5 e bölünecektir. <br>
-++ => 1 Ekle operatörü          =>  x++   kodunun açılımı x = x + 1 şeklindedir ve x değeri 1 artacaktır. <br>
--- => 1 çıkar operatörü         =>  x--   kodunun açılımı x = x - 1 şeklindedir ve x değeri 1 azalacaktır. <br>
+"+=" => Topla ve ata operatörü    => x += 5 kodunun açılımı x = x + 5 şeklindedir ve x değeri 5 artacaktır. <br>
+"-=" => Çıkar ve ata operatörü    => x -= 5 kodunun açılımı x = x - 5 şeklindedir ve x değeri 5 azalacaktır. <br>
+"*=" => Çarp ve ata operatörü     => x *= 5 kodunun açılımı x = x * 5 şeklindedir ve x değeri 5 ile çarpılacaktır. <br>
+"/=" => Böl ve ata operatörü      => x /= 5 kodunun açılımı x = x / 5 şeklindedir ve x değeri 5 e bölünecektir. <br>
+"++" => 1 Ekle operatörü          =>  x++   kodunun açılımı x = x + 1 şeklindedir ve x değeri 1 artacaktır. <br>
+"--" => 1 çıkar operatörü         =>  x--   kodunun açılımı x = x - 1 şeklindedir ve x değeri 1 azalacaktır. <br>
 
 
 ## Karşılaştırma Operatörleri
 
-== => Eşit mi operatörü          => 5 == 6 çıktısı false <br>
-!= => Eşit değil mi operatörü    => 5 != 6 çıktısı true <br>
-<  => Küçüktür operatörü         => 5 < 10 çıktısı true <br>
->  => Büyüktür operatörü         => 5 > 10 çıktısı false <br>
-=> => Büyük eşit operatörü       => 5 => 5 çıktısı true <br>
-=< => Küçük eşit operatörü       => 5 =< 5 çıktısı true
+"==" => Eşit mi operatörü          => 5 == 6 çıktısı false <br>
+"!=" => Eşit değil mi operatörü    => 5 != 6 çıktısı true <br>
+"<"  => Küçüktür operatörü         => 5 < 10 çıktısı true <br>
+">"  => Büyüktür operatörü         => 5 > 10 çıktısı false <br>
+"=>" => Büyük eşit operatörü       => 5 => 5 çıktısı true <br>
+"=<" => Küçük eşit operatörü       => 5 =< 5 çıktısı true
 
 
 ## Mantıksal Operatörler
 
-&& => Ve(and) operatörü          => 5 == 5 && 10 != 7 çıktısı true <br>
-|| => Veya(or) operatörü         => 5 == 5 || 10 == 6 çıktısı true <br>
-! => Değil operatörü             => !(5 == 10) çıktısı true
+"&&" => Ve(and) operatörü          => 5 == 5 && 10 != 7 çıktısı true <br>
+"||" => Veya(or) operatörü         => 5 == 5 || 10 == 6 çıktısı true <br>
+"!" => Değil operatörü             => !(5 == 10) çıktısı true
 
 
 # Koşullar 
@@ -130,9 +130,9 @@ else {x = 15} <br>
 => Burada if koşulu sağlanmadığı için ve başka koşul kalmadığı için else kodu devreye girip x değeri 15 olarak atanacaktır.
 
 ### Koşula bağlı operatör
-?: (Ternary Operator)/(Koşula Bağlı Operatör) => bu operatör mantığı if else den gelmektedir. x ? y : z şeklinde kullanılan bu operatör de x in istenilen koşul, koşul sağlanırsa dönecek veri y, koşul sağlanmazsa dönecek veri z dir.
+"?:" (Ternary Operator)/(Koşula Bağlı Operatör) => bu operatör mantığı if else den gelmektedir. x ? y : z şeklinde kullanılan bu operatör de x in istenilen koşul, koşul sağlanırsa dönecek veri y, koşul sağlanmazsa dönecek veri z dir.
 
-x > 0 ? x : -x
+x > 0 ? x : -x <br>
 => Bu kodda bir x değeri isteniyor ve bu x değerinin koşulu "x > 0" dur, eğer x değişkeni 0 dan büyükse x in kendisi çıktı olacaktır fakat x değişkeni 0 dan küçükse - ile çarpılıp yani -x değeri çıktımız olacaktır.
 
 
