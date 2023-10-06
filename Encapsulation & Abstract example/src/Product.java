@@ -5,7 +5,7 @@ public class Product {
         setStockAmount(stockAmount);
         setPrice(price);
         setName(name);
-        setDescription(description);
+        setTradeMark(description);
         setId(id);
     }
     public Product(){
@@ -14,7 +14,7 @@ public class Product {
 
     private int _id;
     private String _name;
-    private String _description;
+    private String _trademark;
     private double _price;
     private int _stockAmount;
 
@@ -38,12 +38,12 @@ public class Product {
         _name = name;
     }
 
-    public String getDescription() {
-        return _description;
+    public String getTradeMark() {
+        return _trademark;
     }
 
-    public void setDescription(String description) {
-        _description = description;
+    public void setTradeMark(String description) {
+        _trademark = description;
     }
 
     public double getPrice() {

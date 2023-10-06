@@ -13,7 +13,7 @@ public class ProductManager {
 
         product.setId(id);
         product.setName(name);
-        product.setDescription(description);
+        product.setTradeMark(description);
         product.setPrice(price);
         product.setStockAmount(stockAmount);
 
