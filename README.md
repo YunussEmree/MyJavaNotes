@@ -1,6 +1,9 @@
 # Ufak Notlar
 this -> bu class demek
 
+Önerilan ide -> Intellij Idea
+Önerilen Intellij Idea eklentileri: Atom Material Icons(Dosya ikonlarını değiştiriyor), Material Theme UI(Intellij görünümünü değiştiriyor.)
+
 
 # Bazı Kısayollar
 Ctrl + Shift + alt + l => kodun satırlarını hizalar.
