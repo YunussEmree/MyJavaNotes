@@ -20,6 +20,9 @@ Intellij içinden herhangi bir class koduna sağ tıkla -> refactor -> Encapsula
 
 ## Tam sayılar
 
+### Bit
+1 ve 0 rakamlarını alabilir.
+
 ### Byte
 Bellekte 1 byte/8 bit yer kaplar
 -128 den 127 ye kadarki olan tam sayıları tutabilen veri tipidir.
