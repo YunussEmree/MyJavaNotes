@@ -100,8 +100,8 @@ Sadece True(1) ve False(0) verilerini tutabilir.
 "!=" => Eşit değil mi operatörü    => 5 != 6 çıktısı true <br>
 "<"  => Küçüktür operatörü         => 5 < 10 çıktısı true <br>
 ">"  => Büyüktür operatörü         => 5 > 10 çıktısı false <br>
-"=>" => Büyük eşit operatörü       => 5 => 5 çıktısı true <br>
-"=<" => Küçük eşit operatörü       => 5 =< 5 çıktısı true
+">=" => Büyük eşit operatörü       => 5 => 5 çıktısı true <br>
+"<=" => Küçük eşit operatörü       => 5 =< 5 çıktısı true
 
 
 ## Mantıksal Operatörler
