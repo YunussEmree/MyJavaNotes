@@ -36,7 +36,7 @@ Bellekte 4byte yer kaplar.
 -2147483648 den 2147483647 ye kadarki olan tam sayıları tutabilen veri tipidir.
 
 ### Long
-Bellekte 64byte yer kaplar.
+Bellekte 8byte yer kaplar.
 -9,223,372,036,854,775,808 den 9,223,372,036,854,775,807 ye kadarki olan tam sayıları tutabilen veri tipidir.
 
 
