@@ -6,8 +6,9 @@ public class CustomerManager {
         this.baseLogger = baseLogger;
     }
 
-    public void add(BaseLogger baseLogger){
-        baseLogger.log("");
+    public void add(){
+        System.out.println("Müşteri eklendi");
+        this.baseLogger.log("log mesajı");
     }
 
 }

@@ -4,14 +4,39 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner scn = new Scanner(System.in);
+        System.out.print("Sayı gir = ");
+        int sayi = scn.nextInt();
+        int temp = sayi;
+        int yenisayi = 0;
 
+        while(temp != 0){
+            yenisayi = yenisayi*10 + temp%10;
+            temp /= 10;
+        }
+        if(yenisayi == sayi) System.out.println("Palindrom sayıdır.");
+        else System.out.println("Palindrom sayı değildir.");
+
+
+
+
+
+        //        Scanner scn = new Scanner(System.in);
+//        int sayi1 = scn.nextInt();
+//        int sayi2 = scn.nextInt();
+//
+//        int ebob = 1;
+//
+//        int buyuk = Math.max(sayi1,sayi2);
+//        for (int i = buyuk; 1 < i; i--) {
+//            if(sayi1 % i == 0 && sayi2 % i == 0)  ebob = i;
+//        }
+//
+//        int ekok = (sayi1*sayi2) / (ebob);
+//
+//        System.out.println("Ebob: " + ebob + ", Ekok: " + ekok);
 
     }
-
-
-
-
-
 
 
 //    Scanner scanner = new Scanner(System.in);
@@ -85,7 +110,6 @@ public class Main {
 //            dizi[i] = dizi[i-2] + dizi[i-1];
 //        }
 //        System.out.println(Arrays.toString(dizi));
-
 
 
 //        Scanner scanner = new Scanner(System.in);
