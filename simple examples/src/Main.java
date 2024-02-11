@@ -2,7 +2,34 @@ import java.util.*;
 
 public class Main {
 
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int min = 0,max = 0;
+
+        for(int x : nums1) {
+            if(x < min) min = x;
+            if(x > max) max = x;
+        }
+        for(int x : nums2) {
+            if(x < min) min = x;
+            if(x > max) max = x;
+        }
+        return ((double) (min + max))/2;
+    }
+
     public static void main(String[] args) {
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         Scanner scn = new Scanner(System.in);
         System.out.print("Sayı gir = ");
