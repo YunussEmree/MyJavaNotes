@@ -158,4 +158,5 @@ switch(i){ <br>
 }
 
 
-
+## Static
+=> static ile oluşturulan bir metot ortaktır ve class ın new lanmasını gerektirmez
