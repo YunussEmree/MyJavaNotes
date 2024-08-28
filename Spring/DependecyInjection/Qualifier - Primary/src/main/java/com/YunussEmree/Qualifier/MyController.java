@@ -11,13 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 
     @Autowired
-    @Qualifier("worldFileReader") // Qualifier annotation is used to specify which bean should be injected
+    //@Qualifier("worldFileReader") // Qualifier annotation is used to specify which bean should be injected
     private Reader reader;
+
+    @Autowired
+    @Qualifier("worldFileReader") // Qualifier annotation is used to specify which bean should be injected
+    private Reader reader2;
 
 
     @GetMapping("/read")
     public String read() {
-         return reader.readFile();
+         return reader.readFile() + " " + reader2.readFile();
     }
 
 }
