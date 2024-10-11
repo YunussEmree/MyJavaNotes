@@ -6,8 +6,10 @@ this -> bu class demek
 
 
 # Bazı Kısayollar
+Ctrl + alt + o => removing unused imports
 Ctrl + Shift + alt + l => kodun satırlarını hizalar.
-Intellij içinden herhangi bir class koduna sağ tıkla -> refactor -> Encapsulate fiels -> ayarları yap ve refactor e tıkla -> Encapsulation(getter/setter) yapmanın kısa yolu
+Intellij içinden herhangi bir class koduna sağ tıkla -> refactor -> Encapsulate fields -> ayarları yap ve refactor e tıkla -> Encapsulation(getter/setter) yapmanın kısa yolu
+                                               ya da -> ilgili süslü parantez içerisinde sağ tık yap generate e tıkla ve orada üretmek istediğin şeyi yaz.
 
 
 # Yorum Satırı
@@ -160,3 +162,8 @@ switch(i){ <br>
 
 ## Static
 => static ile oluşturulan bir metot ortaktır ve class ın new lanmasını gerektirmez
+
+
+#Spring Web
+@Service -> bussines layer annotation
+@Repository -> data access layer annotation
