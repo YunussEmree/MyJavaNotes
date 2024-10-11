@@ -23,7 +23,7 @@ public class MyComponent {
         System.out.println("MyComponent created at " + LocalDateTime.now());
     }
 
-    public String getname(){
+    public String getname() {
         return "Yunus Emre";
     }
 }
